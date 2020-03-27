@@ -1,0 +1,10 @@
+C:\Users\Arinze\source\repos\AtmApp\AtmApp\bin\Debug\netcoreapp1.1\AtmApp.deps.json
+C:\Users\Arinze\source\repos\AtmApp\AtmApp\bin\Debug\netcoreapp1.1\AtmApp.runtimeconfig.json
+C:\Users\Arinze\source\repos\AtmApp\AtmApp\bin\Debug\netcoreapp1.1\AtmApp.runtimeconfig.dev.json
+C:\Users\Arinze\source\repos\AtmApp\AtmApp\bin\Debug\netcoreapp1.1\AtmApp.dll
+C:\Users\Arinze\source\repos\AtmApp\AtmApp\bin\Debug\netcoreapp1.1\AtmApp.pdb
+C:\Users\Arinze\source\repos\AtmApp\AtmApp\obj\Debug\netcoreapp1.1\AtmApp.csprojResolveAssemblyReference.cache
+C:\Users\Arinze\source\repos\AtmApp\AtmApp\obj\Debug\netcoreapp1.1\AtmApp.csproj.CoreCompileInputs.cache
+C:\Users\Arinze\source\repos\AtmApp\AtmApp\obj\Debug\netcoreapp1.1\AtmApp.AssemblyInfo.cs
+C:\Users\Arinze\source\repos\AtmApp\AtmApp\obj\Debug\netcoreapp1.1\AtmApp.dll
+C:\Users\Arinze\source\repos\AtmApp\AtmApp\obj\Debug\netcoreapp1.1\AtmApp.pdb
