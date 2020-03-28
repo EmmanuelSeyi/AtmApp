@@ -41,7 +41,7 @@ namespace AtmApp
 
             Console.WriteLine("Enter your Phone Numer");
             phoneNumber = long.Parse(Console.ReadLine());
-            if (phoneNumber.ToString().Length > 11)
+            while (phoneNumber.ToString().Length > 11)
             {
                 Console.WriteLine("THE PHONE NUMBER MUST BE 11 DIGITS!!!!!");
                  Console.WriteLine("Enter your Phone Numer");

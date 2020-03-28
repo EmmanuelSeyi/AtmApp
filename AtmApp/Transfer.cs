@@ -25,13 +25,13 @@ namespace AtmApp
             transferAmount = Int32.Parse(Console.ReadLine());
             if (transferAmount > amount)
             {
-                Console.WriteLine(amount + " INSUFFICIENT FUNDS");
+                Console.WriteLine("INSUFFICIENT FUNDS");
                 Console.ReadKey();
                 Environment.Exit(0);
             }
             balance = amount - transferAmount;
-            Console.WriteLine("\nThe transfer of "+transferAmount+" "+"to "+destinationAccNumber+" was Successful!");
-            Console.WriteLine("\nYour Balance is "+balance);
+            Console.WriteLine("\nThe transfer of #"+transferAmount+" "+"to "+destinationAccNumber+" was Successful!");
+            Console.WriteLine("\nYour Balance is #"+balance);
             amount = balance;
           
         }

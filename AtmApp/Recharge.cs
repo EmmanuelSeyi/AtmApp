@@ -18,6 +18,12 @@ namespace AtmApp
                 case 1:
                     Console.WriteLine("\nEnter Amount:");
                     creditAmount = Int32.Parse(Console.ReadLine());
+                    if (creditAmount > amount)
+                    {
+                        Console.WriteLine("INSUFFICIENT FUNDS");
+                        Console.ReadKey();
+                        Environment.Exit(0);
+                    }
                     balance = amount - creditAmount;
                     Console.WriteLine("\nThe Credit transfer of " + creditAmount + " " + "to your number(" + phoneNumber + ") was Successful!");
                     Console.WriteLine("\nYour Balance is " + balance);
@@ -28,6 +34,12 @@ namespace AtmApp
                     number = Int32.Parse(Console.ReadLine());
                     Console.WriteLine("\nEnter Amount:");
                     creditAmount = Int32.Parse(Console.ReadLine());
+                    if (creditAmount > amount)
+                    {
+                        Console.WriteLine("INSUFFICIENT FUNDS");
+                        Console.ReadKey();
+                        Environment.Exit(0);
+                    }
                     balance = amount - creditAmount;
                     Console.WriteLine("\nThe Credit transfer of " + creditAmount + " " + "to your number(" + number + ") was Successful!");
                     Console.WriteLine("\nYour Balance is " + balance);

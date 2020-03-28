@@ -28,7 +28,9 @@ namespace AtmApp
                     case 2:
                         credit();
                         break;
-
+                    case 3:
+                        bills();
+                        break;
                     case 0:
                         Environment.Exit(0);
                         break;
